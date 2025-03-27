@@ -284,6 +284,11 @@ namespace WpfApp1
                 btn.Content = "";
             }
         }
+
+        public void UpdateBombCount()
+        {
+            bombCountTextBlock.Text = $"남은 폭탄: {MINE_COUNT}";
+        }
     }
 
     // 각 셀의 정보를 저장할 클래스

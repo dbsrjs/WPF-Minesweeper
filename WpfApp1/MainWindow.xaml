@@ -12,15 +12,15 @@
         </Grid.RowDefinitions>
 
         <!-- 상단 UI 영역 -->
-        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
-            <Button Content="New Game" Click="NewGameButton_Click" Margin="5"/>
-            <TextBlock Name="bombCountTextBlock"
-           Text="남은 폭탄: "
+		<StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="5">
+			<Button Content="New Game" Click="NewGameButton_Click" Margin="5"/>
+			<TextBlock Name="bombCountTextBlock"
+           Text="남은 폭탄: 10"
            FontSize="16"
            HorizontalAlignment="Left"
            VerticalAlignment="Top"
            Margin="10"/>
-        </StackPanel>
+		</StackPanel>
 
         <!-- 지뢰찾기 보드를 배치할 UniformGrid -->
         <UniformGrid x:Name="BoardGrid" Rows="10" Columns="10" Grid.Row="1" />
