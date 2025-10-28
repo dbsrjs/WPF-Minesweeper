@@ -1,2 +1,2 @@
-# Calculator
- WPF Calculator
+# 회사에서 몰래 하기 좋은 지뢰 찾기.
+ 하다가 걸릴뻔(걸린건가..?)
