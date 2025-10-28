@@ -7,9 +7,9 @@ namespace WpfApp1
 {
     public partial class MainWindow : Window
     {
-        private const int ROWS = 10;
-        private const int COLS = 10;
-        public const int MINE_COUNT = 10;
+        private const int ROWS = 20;
+        private const int COLS = 20;
+        public const int MINE_COUNT = 14;
 
         // 셀 정보 저장용 2차원 배열
         private CellInfo[,] _board = new CellInfo[ROWS, COLS];
